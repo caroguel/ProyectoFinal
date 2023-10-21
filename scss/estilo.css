@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@200&family=Roboto:wght@100&display=swap");
+@media (max-width: 400px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .conatainer {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+  .contenedorProducto {
+    grid-template-columns: 1fr;
+    overflow: hidden;
+  }
+}
+@media (max-width: 400px) {
+  .nav_item {
+    position: absolute;
+    top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+  }
+  nav.toggle {
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+  }
+  .open {
+    transform: translateX(0) !important;
+  }
+}
+main {
+  min-height: 85vh;
+}
+
+.imagenGaleria {
+  border-radius: 5px;
+  padding: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  transition: all 0.3s ease;
+  filter: grayscale(50%);
+}
+.imagenGaleria:hover {
+  filter: grayscale(0%);
+  transform: scale(1.03);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(91, 213, 247);
+}
+.navbar .nav_toggle {
+  display: none;
+}
+.navbar .navbar-brand {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  color: rgb(91, 213, 247);
+  font-family: "Dancing Script", cursive;
+}
+.navbar .nav-link {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: rgb(91, 213, 247);
+  font-size: 25px;
+}
+
+.formulario {
+  font-family: "Roberto", sans-serif;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-image: url("../img/IMG_7210.jpeg");
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+}
+form label {
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Roberto", sans-serif;
+}
+form input[type=text],
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+form input[type=submit] {
+  background-color: rgb(91, 213, 247);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero {
+  width: 100%;
+  position: relative;
+  justify-content: center;
+}
+.hero .contenido-hero {
+  width: 100%;
+  height: auto;
+}
+.hero p {
+  color: black;
+  font-size: 20px;
+}
+.hero h1 {
+  color: black;
+  font-size: 40px;
+  justify-content: center;
+}
+.hero .boton {
+  color: white;
+  text-transform: uppercase;
+  background-color: rgb(91, 213, 247);
+  font-size: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.hero h1, .hero p, .hero .boton {
+  font-family: "Roboto", sans-serif;
+}
+
+.contenedorProducto {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  margin: 30px 0;
+  padding: 10px;
+}
+.contenedorProducto .producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.contenedorProducto .producto .proImagen {
+  width: 300px;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.contenedorProducto .producto .proTitulo {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.contenedorProducto .producto .boton {
+  padding: 10px 10px;
+  background-color: rgb(91, 213, 247);
+  color: #fafafa;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  line-height: 35px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+}
+
+.row {
+  justify-content: center;
+  align-items: center;
+}
+
+.col-sm-6 nleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-size: cover;
+  width: 100%;
+}/*# sourceMappingURL=estilo.css.map */

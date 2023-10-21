@@ -1,0 +1,32 @@
+.hero {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+
+.contenido-hero {
+    width: 100%;
+    height:auto;
+}
+p{
+    color: $color-fuente-principal;
+    font-size: 20px;
+    
+}
+h1{
+    color: $color-fuente-principal;
+    font-size: 40px;
+    justify-content: center;
+}
+.boton{
+    color: $color-fuente-secundario;
+    text-transform: uppercase;
+    background-color:$color-botones;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+h1, p, .boton {
+    font-family: "Roboto", sans-serif;
+}
+}

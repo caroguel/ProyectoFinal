@@ -1,0 +1,13 @@
+.imagenGaleria {
+    border-radius: 5px;
+    padding: 0.4rem;
+    max-width: 100%;
+    height: auto;
+    transition: all 0.3s ease;
+    filter: grayscale(50%);
+
+    &:hover {
+        filter: grayscale(0%);
+        transform: scale(1.03);
+    }
+}

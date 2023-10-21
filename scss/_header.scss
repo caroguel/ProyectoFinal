@@ -1,0 +1,30 @@
+@mixin anclas{
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: $color-botones;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-botones;
+
+
+    .nav_toggle{
+        display: none;
+    }
+
+    .navbar-brand {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px;
+        color: $color-botones;
+        font-family: 'Dancing Script', cursive;
+    }
+
+    .nav-link {
+        @include anclas;
+        font-size: 25px;
+    }
+}

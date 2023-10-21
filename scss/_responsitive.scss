@@ -1,0 +1,33 @@
+
+@media (max-width: 400px) {
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    .conatainer{
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    .contenedorProducto{
+        grid-template-columns: 1fr;
+        overflow: hidden;
+    }
+}
+@media (max-width:400px){
+    .nav_item{
+        position: absolute;
+        top: 60px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    nav.toggle{
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .open{
+        transform: translateX(0) !important;
+    }
+}
